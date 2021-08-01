@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,600;0,700;0,800;0,900;1,100;1,300;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300&display=swap');
+
+
+
+/* default style */
+body{
+    margin: 0;
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #fff;
+}
+*:not(i){
+    font-family: 'Open Sans', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+::before,::after{
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+header,
+section,
+footer{
+    display: block;
+    width: 100%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.justify-content-betwen{
+    justify-content: space-between;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.align-items-center{
+    align-items: center;
+}
+.section-title{
+    flex:0 0 100%;
+    max-width: 100%;
+    padding: 0 15px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.section-title h2{
+    font-size: 45px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Open Sans", cursive;
+    letter-spacing: 2px;
+    margin: 0;
+    text-transform: capitalize;
+}
+.btn-1{
+    padding: 10px 35px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid transparent;
+   text-decoration: none;
+   display: inline-block;
+    transition: all 0.5s ease;
+    font-weight: 500;
+}
+.btn-1:focus{
+    outline: none;
+    
+}
+.btn-1:hover{
+    background-color: transparent;
+}
+
+/* header */
+
+.navbar{
+ 
+    padding: 5px 100px 0;
+    
+    z-index: 50;
+}
+
+.navbar-brand .logo{
+    width: 80px;
+    height: 80px;
+}
+ul li a.nav-link{
+    color: #68635f;
+    /* color: aqua; */
+    font-family: 'Open Sans', cursive;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+ul li.nav-item{
+    margin-left: 30px;
+}
+.form-input{
+    padding-left: 30px;
+}
+.form-input input{
+    height: 30px;
+    width: 110px;
+    border-radius: 20px;
+    background-color: #c3bfbc;
+    border:none;
+    
+}
+.item-search{
+    position: relative;
+}
+.item-search a{
+    
+    position: absolute;
+    left:10px;
+    /* z-index: 1; */
+    margin-left: 70px;
+    margin-top: 3px;
+    
+}
+.item-search i{
+    text-decoration: none;
+    color:#68635f ;
+}
+
+/* home section */
+.home-section{
+    min-height: 100vh;
+    margin-top: -50px;
+    
+
+}
+.home-section .backgroud{
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    z-index: 15;
+    position: absolute;
+
+}
+.in-section{
+    min-height: 100vh;
+}
+.in-section .xx{
+    /* position: relative; */
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    z-index: 40;
+    position: absolute;
+
+}
+.home-section .row{
+    min-height: 100vh;
+    padding-top: 20%;
+    
+    
+}
+.home-section .content-home h1{
+    font-weight: 900;
+    font-family: "Open Sans";
+    font-size: 70px;
+    color: #e7aa5f;
+    text-shadow: 3px -3px 5px rgb(197, 196, 196);
+}
+.home-section .content-home{
+    padding: 0 100px 0;
+}
+.home-section .content-home h2{
+    text-transform: uppercase;
+    /* line-height: 10px; */
+    font-size: 15px;
+    /* font-style: italic; */
+    font-weight : 700;
+    letter-spacing: 2px;
+    color: #54524f;
+    
+}
+.home-section .content-home button{
+    background-color: #fff;
+    color: #776c64;
+    padding: 3px 20px;
+    border: none;
+    border-radius: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 30px 0 20px;
+    cursor: pointer;
+    z-index: 100;
+    position: relative;
+    text-decoration: none;
+}
+.home-section .content-home .isi-home{
+    width: 500px;
+}
+.home-section .content-home .isi-home p{
+    font-weight: 700;
+    font-style: italic;
+    color: #54524f;
+    font-size: 15px;
+}
+
+/* sesssion lestgo */
+.letsgo-section .row .section-title h2{
+    color: #e7aa5f;  
+}
+.isi-letsgo{
+    margin: auto;
+    text-align: center;
+    
+}
+.isi-letsgo h3{
+    font-size: 20px;
+}
+.letsgo-item{
+    flex: 0 0 33.33%;
+    /* height: 200px; */
+    background-color: #fff;
+    padding: 0 30px 0;
+    max-width: 33.33%;
+    display: flex;
+}
+.letsgo-item .lestgo-item-inner{
+    background-color: #7f7770;
+    
+    
+}
+.letsgo-item .lestgo-item-inner img{
+    width: 100%;
+}
+.letsgo-item .lestgo-item-inner h3{
+    font-size: 22px;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 0;
+    padding-left: 10px;
+}
+.letsgo-item .lestgo-item-inner p{
+    padding: 10px 10px;
+    font-style: italic;
+    color: #fff;
+    text-align: justify;
+}
+.letsgo-btn{
+    margin: 30px 0 0;
+}
+.letsgo-btn button{
+    background-color: #7f7770;
+    padding: 10px 70px;
+    border: none;
+    border-radius: 30px;
+    font-weight: 900;
+    color: #fff;
+}
+
+
+/* @media(min-width: 1321px){
+    .home-section .content-home{
+        padding: -40px;
+    }
+} */
+ @media(min-width: 1320px){
+    .container.home {
+        max-width: 100%;
+        margin: auto;
+    }
+    /* .home-section .content-home{
+        position: relative;
+        padding-left: 0;
+    } */
+    .home-section .row {
+        min-height: 100vh;
+        padding-top: 16%;
+    }
+} 
+@media(max-width: 700px){
+    .home-section .content-home {
+        padding: 0;
+    }
+    .navbar {
+        padding: 5px 20px 0;
+        z-index: 50;
+    }
+    .container {
+        padding: 20px;
+    }
+    .home-section .row {
+        min-height: 100vh;
+        padding-top: 48%;
+    }
+    
+}
+@media(max-width: 500px){
+    .home-section .content-home .isi-home {
+        width: 35%;
+    }
+    .home-section .content-home h1{
+        font-size: 36px;
+    }
+    .home-section .content-home {
+        padding-top: 85px;
+    padding-left: 19px;
+    }
+    .home-section .content-home .isi-home p{
+        font-size: 13px;
+    }
+    .home-section .row {
+        min-height: 100vh;
+        padding-top: 10%;
+    }
+}
