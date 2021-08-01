@@ -327,6 +327,6 @@ ul li.nav-item{
     }
     .home-section .row {
         min-height: 100vh;
-        padding-top: 10%;
+        padding-top: 0;
     }
 }
