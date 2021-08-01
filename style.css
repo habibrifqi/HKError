@@ -313,7 +313,7 @@ ul li.nav-item{
 }
 @media(max-width: 500px){
     .home-section .content-home .isi-home {
-        width: 35%;
+        width: 37%;
     }
     .home-section .content-home h1{
         font-size: 36px;
@@ -323,7 +323,7 @@ ul li.nav-item{
     padding-left: 19px;
     }
     .home-section .content-home .isi-home p{
-        font-size: 13px;
+        font-size: 10px;
     }
     .home-section .row {
         min-height: 100vh;
